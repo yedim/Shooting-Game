@@ -151,6 +151,8 @@
   <ItemGroup>
     <ClInclude Include="CInput.h" />
     <ClInclude Include="CScreen.h" />
+    <ClInclude Include="CSprite.h" />
+    <ClInclude Include="CTexture.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SampleWindow.h" />
     <ClInclude Include="stdafx.h" />
@@ -159,6 +161,8 @@
   <ItemGroup>
     <ClCompile Include="CInput.cpp" />
     <ClCompile Include="CScreen.cpp" />
+    <ClCompile Include="CSprite.cpp" />
+    <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="SampleWindow.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
